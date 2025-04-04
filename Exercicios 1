@@ -1,0 +1,62 @@
+#ATIVIDADE 1
+#idade = int (input ('Digite a sua idade:'))
+#if idade > 0 and idade <=12:
+#    print ('Você é Criança')
+
+#elif idade <=13 and idade <=17:
+ #   print (input ('Você é um adolescente'))
+
+#elif idade <=18 and idade >=100:
+ #   print (input('Você é um Adulto'))
+
+#elif idade <100:
+ #   print (input('idade invalida'))
+
+2 # Passo 1: Solicitar o primeiro número do usuário
+# A função input mostra a mensagem e espera o usuário digitar
+# float() converte o texto digitado em número decimal
+num1 = float(input("Digite o primeiro número: "))
+
+# Passo 2: Solicitar o segundo número do usuário
+num2 = float(input("Digite o segundo número: "))
+
+# Passo 3: Comparar os números usando estrutura if-elif-else
+if num1 > num2:
+    # Se num1 for maior que num2, mostra esta mensagem
+    print(f"{num1} é maior que {num2}")
+elif num2 > num1:
+    # Se num2 for maior que num1, mostra esta mensagem
+    print(f"{num2} é maior que {num1}")
+else:
+    # Se nenhuma das condições acima for verdadeira,
+    # significa que os números são iguais
+    print("Os números são iguais")
+3 # Programa para verificar se uma letra é vogal ou consoante
+letra = input("Digite uma letra: ").lower()
+
+# Lista de vogais
+vogais = ['a', 'e', 'i', 'o', 'u']
+
+if len(letra) == 1 and letra.isalpha():
+    if letra in vogais:
+        print(f"A letra '{letra}' é uma vogal.")
+    else:
+        print(f"A letra '{letra}' é uma consoante.")
+else:
+    print("Por favor, digite apenas uma letra.")
+4 # Solicita as três notas do usuário
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+# Calcula a média
+media = (nota1 + nota2 + nota3) / 3
+
+# Verifica se o aluno foi aprovado ou reprovado
+if media >= 7:
+    print(f"Média: {media:.1f}")
+    print("Aluno APROVADO!")
+else:
+    print(f"Média: {media:.1f}")
+    print("Aluno REPROVADO!")
+
