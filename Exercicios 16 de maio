@@ -1,1 +1,68 @@
+#Peça ao usuário para digitar 5 números e mostre a soma deles ao final.
 
+#num1 = float(input("Digite o Primero número: "))
+#num2 = float(input("Digite o Segundo número: "))
+#num3 = float(input("Digite o Terceiro número: "))
+#num4 = float(input("Digite o Quarto número: "))
+#num5 = float(input("Digite o Quinto número: "))
+
+#Soma = (num1 + num2 + num3 + num4 + num5)
+
+#print(f"O Resultado da Soma É {Soma}")
+
+#Peça ao usúario para digitar 4 números e mostre qual é o maior e qual é o menor.
+
+
+#palavra = input("Digite uma palavra: ")
+
+#vogais = ["a", "e", "i", "o", "u"]
+
+#contador = 0
+
+#for letra in palavra: 
+  #for vogal in vogais:
+    #if (letra == vogal):
+       # contador += 1
+
+#print(f"O Número de vogais na palavra {palavra} é de {contador}")
+
+#Peça ao usuário para digitar 6 números e mostre apenas os números pares digitados.
+
+#num1 = float(input("Digite o Primero número: "))
+#num2 = float(input("Digite o Segundo número: "))
+#num3 = float(input("Digite o Terceiro número: "))
+#num4 = float(input("Digite o Quarto número: "))
+#num5 = float(input("Digite o Quinto número: "))
+#num6 = float(input("Digite o sexto número: "))
+
+#listaDePares = []
+
+#listaDeNumeros= [numero1, numero2, numero3, numero4, numero5, numero6]
+
+#for numero in listaDeNumeros:
+   # if numero % 2 == 0:
+        #listaDePare.append(numero)
+
+       # if len(listaDePares) != 0:
+            #print(f'Os números pares digitados foram: {listaDePares}')
+        #else:
+           # print("A lista não tem nenhum número par!")
+        
+
+# Solicita as quatros provas e mostre a média.
+
+#nota1 = float(input("Digite a primeira nota: "))
+#nota2 = float(input("Digite a segunda nota: "))
+#nota3 = float(input("Digite a terceira nota: "))
+#nota4 = float(input("Digite a quarta nota: "))
+
+# Calcula a média
+#media = (nota1 + nota2 + nota3 + nota4) / 4
+
+#print(f"Média: {media:.1f}")
+
+#Peça ao usuário um número e mostre a tabuada desse número de 1 a 10.
+
+#numeroDigitado = int(input("digite um número e mostrea a tabuada desse número de 1 a 10: "))
+#for numero in range(1,11):
+    #print(f"{numeroDigitado} x {numero} = {numeroDigitado * numero}")
